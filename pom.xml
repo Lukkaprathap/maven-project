@@ -30,7 +30,7 @@
   </distributionManagement>
 
   <build>
-    <plugin>
+   <plugin>
      <groupId>org.apache.maven.plugins</groupId> <!-- ✅ Added -->
      <artifactId>maven-compiler-plugin</artifactId>
      <version>3.8.1</version> <!-- ✅ Updated -->
@@ -38,7 +38,7 @@
        <source>1.8</source> <!-- ✅ Updated -->
        <target>1.8</target> <!-- ✅ Updated -->
      </configuration>
-      </plugin>
+    </plugin>
 
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
